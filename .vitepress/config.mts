@@ -5,6 +5,11 @@ export default defineConfig({
   title: "Scene",
   description: "安卓玩机工具箱",
   themeConfig: {
+
+    editLink: {
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path'
+    },
+
     logo: '/Scene.svg',
 
     nav: [
