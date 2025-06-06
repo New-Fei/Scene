@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  lastUpdated: true,
   title: "Scene",
   description: "安卓玩机工具箱",
   themeConfig: {
