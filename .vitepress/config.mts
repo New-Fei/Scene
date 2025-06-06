@@ -78,7 +78,7 @@ export default defineConfig({
 
     footer: {
       message: '<a href="https://beian.miit.gov.cn/">粤ICP备2022143387号-1</a>',
-      copyright: 'Copyright © 2025 NewFei'
+      copyright: '版权所有 © 2025 NewFei'
     }
   },
 
