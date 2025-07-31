@@ -1,0 +1,1 @@
+import{_ as i,c as t,o as a,ag as n}from"./chunks/framework.BgId8OS5.js";const o=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/cpuset.md","filePath":"docs/cpuset.md"}'),l={name:"docs/cpuset.md"};function e(h,s,p,k,E,d){return a(),t("div",null,s[0]||(s[0]=[n("",5)]))}const y=i(l,[["render",e]]);export{o as __pageData,y as default};

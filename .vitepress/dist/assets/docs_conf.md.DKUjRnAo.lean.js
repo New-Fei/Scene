@@ -1,0 +1,1 @@
+import{_ as o,c as a,o as c,ag as s}from"./chunks/framework.BgId8OS5.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/conf.md","filePath":"docs/conf.md"}'),t={name:"docs/conf.md"};function p(l,e,n,i,d,r){return c(),a("div",null,e[0]||(e[0]=[s("",6)]))}const h=o(t,[["render",p]]);export{f as __pageData,h as default};

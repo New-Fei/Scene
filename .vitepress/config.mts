@@ -1,15 +1,9 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  lastUpdated: true,
   title: "Scene",
   description: "安卓玩机工具箱",
   themeConfig: {
-
-    editLink: {
-      pattern: 'https://github.com/New-Fei/Scene/edit/main/docs/:path'
-    },
-
     logo: '/Scene.svg',
 
     nav: [
@@ -26,32 +20,36 @@ export default defineConfig({
         text: '文档',
         collapsed: false,
         items: [
-          { text: '介绍', link: '/docs/0index' },
-          { text: '空配置', link: '/docs/empty' },
-          { text: '基础', link: '/docs/basic' },
-          { text: '场景', link: '/docs/apps' },
-          { text: '类目', link: '/docs/categories' },
-          { text: '传感器', link: '/docs/sensor' },
-          { text: 'CPUSET', link: '/docs/cpuset' },
-          { text: 'CPUSET for App', link: '/docs/cpuset_for_app' },
-          { text: '触摸升频', link: '/docs/booster' },
-          { text: '预设', link: '/docs/presets' },
-          { text: '别名', link: '/docs/alias' },
-          { text: '特性', link: '/docs/features' },
-          { text: '描述', link: '/docs/manifest' },
-          { text: '温控', link: '/docs/tas' },
-          { text: 'FAS', link: '/docs/fas' },
-          { text: '辅助调速器', link: '/docs/limiter' },
-          { text: '过时的函数', link: '/docs/outdated' },
-          { text: '其它', link: '/docs/others' }
+          { text: '0index', link: '/docs/0index' },
+          { text: 'alias', link: '/docs/alias' },
+          { text: 'apps', link: '/docs/apps' },
+          { text: 'basic', link: '/docs/basic' },
+          { text: 'booster', link: '/docs/booster' },
+          { text: 'categories', link: '/docs/categories' },
+          { text: 'conf', link: '/docs/conf' },
+          { text: 'cpuset', link: '/docs/cpuset' },
+          { text: 'cpuset_for_app', link: '/docs/cpuset_for_app' },
+          { text: 'empty', link: '/docs/empty' },
+          { text: 'fas', link: '/docs/fas' },
+          { text: 'features', link: '/docs/features' },
+          { text: 'limiter', link: '/docs/limiter' },
+          { text: 'manifest', link: '/docs/manifest' },
+          { text: 'others', link: '/docs/others' },
+          { text: 'outdated', link: '/docs/outdated' },
+          { text: 'presets', link: '/docs/presets' },
+          { text: 'sensor', link: '/docs/sensor' }
         ]
       },
       {
         text: '更新日志',
         collapsed: false,
         items: [
+          { text: 'Scene 6.0.0', link: '/logs/Scene_6.0.0' },
+          { text: 'Scene 6.1.0', link: '/logs/Scene_6.1.0' },
+          { text: 'Scene 6.2.1', link: '/logs/Scene_6.2.1' },
+          { text: 'Scene 6.3.1', link: '/logs/Scene_6.3.1' },
           { text: 'Scene7', link: '/logs/Scene7.logs' },
-          { text: 'Scene8', link: '/logs/Scene8.logs' }
+          { text: 'Scene8', link: '/logs/Scene8.logs' },
         ]
       }
     ],
@@ -84,7 +82,7 @@ export default defineConfig({
 
     footer: {
       message: '<a href="https://beian.miit.gov.cn/">粤ICP备2022143387号-1</a>',
-      copyright: '版权所有 © 2025 NewFei'
+      copyright: 'Copyright © 2025 NewFei'
     }
   },
 

@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as t,ag as e}from"./chunks/framework.BgId8OS5.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/limiter.md","filePath":"docs/limiter.md"}'),n={name:"docs/limiter.md"};function l(p,s,h,k,d,r){return t(),a("div",null,s[0]||(s[0]=[e("",33)]))}const E=i(n,[["render",l]]);export{c as __pageData,E as default};

@@ -90,12 +90,12 @@
   | lower_freq | 较低频率 | int |
   | max_level | 最大帧率级别，如 `60` `90` `120` | int |
   | min_level | 最小帧率级别，如 `60` `90` `120` | int |
+  | middle_optimum_freq | 中核最佳频率 | int |
 
 - 进阶的(已在Scene8FAS中废弃的参数)
 
   | 参数 | 解释 | 类型 |
   | :- | :- | -: |
-  | middle_optimum_freq | 中核最佳频率 | int |
   | recent_frames | 用于计算平均“帧耗时”的帧数 | int |
   | thread_analyzer | 线程分析，根据线程负载调整中核与大核的频率差 | int |
   | perfect_load | 完美负载0~100 | float |
