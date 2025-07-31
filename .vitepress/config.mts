@@ -60,26 +60,6 @@ export default defineConfig({
       { icon: 'telegram', link: 'https://t.me/scene2023' }
     ],
 
-    search: {
-      provider: 'local',
-      options: {
-        translations: {
-          button: {
-            buttonText: '搜索文档',
-            buttonAriaLabel: '搜索文档'
-          },
-          modal: {
-            noResultsText: '无法找到相关结果',
-            resetButtonTitle: '清除查询条件',
-            footer: {
-              selectText: '选择',
-              navigateText: '切换'
-            }
-          }
-        }
-      }
-    },
-
     footer: {
       message: '<a href="https://beian.miit.gov.cn/">粤ICP备2022143387号-1</a>',
       copyright: 'Copyright © 2025 NewFei'
